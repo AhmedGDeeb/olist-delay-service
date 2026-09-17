@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest
+pytest-cov
+mlflow
+dvc
+pre-commit
+black
+flake8

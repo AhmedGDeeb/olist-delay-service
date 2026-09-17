@@ -1,0 +1,18 @@
+data:
+  X_train_path: "data/X_train_final.csv"
+  X_val_path: "data/X_val_final.csv"
+
+model:
+  model_path: "models/final_model.pkl"
+  preprocessor_path: "models/preprocessor.pkl"
+  feature_names_path: "models/feature_names.pkl"
+  threshold: 0.5
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  version: "v0.0.0"
+
+logging:
+  level: "INFO"
+  log_file: "logs/app.log"
