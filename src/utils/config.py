@@ -1,11 +1,9 @@
 """Configuration loader."""
+
 from pathlib import Path
 import yaml
 
-
-DEFAULT_CONFIG_PATH = (
-    Path(__file__).resolve().parents[2] / "config" / "config.yaml"
-)
+DEFAULT_CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "config.yaml"
 
 
 def load_config(path: str | Path | None = None) -> dict:
